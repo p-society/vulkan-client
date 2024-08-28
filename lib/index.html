@@ -4,36 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vulkan</title>
     <style>
         body {
+            margin: auto;
+            padding: 0;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            max-width: 75%;
+            font-family: arial, sans-serif;
+        }
+
+        h4 {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            /* Optional: for better visibility */
+            padding: 1rem;
+            font-size: 1.5rem;
         }
 
-        img {
-            width: 200px;
-            margin-bottom: 20px;
-            /* Space between the logo and heading */
+        nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 1rem;
+            margin: 0 0 1rem 0;
+            list-style: none;
         }
 
-        h1 {
-            font-size: 2em;
-            color: #333;
+        nav li {
+            margin-right: 1rem;
+            font-size: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+            padding: 1rem;
+            font-size: 13px;
+        }
+
+        #home-posts {
+            padding: 1rem;
+        }
+
+        #home-posts h3 {
+            margin: 0 0 1rem;
+        }
+
+        #home-posts a {
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
-    <img src="../vulkan.png" alt="Vulkan Logo" />
-    <h1>Vulkan 0.0.1</h1>
+    <code>
+        <div style="display: flex; align-items: center;">
+            <img src="../vulkan.png" width="100px" style="margin-left: -18px;"/>
+            <h4 style="margin-left: -20px;">vulkan 0.0.1</h4>
+        </div>
+</div>
+
+    <nav>
+        <li><a href="#">home</a></li>
+        <li><a href="#">top</a></li>
+        <li><a href="#">catalog</a></li>
+        <li><a href="#">contests</a></li>
+        <li><a href="#">gym</a></li>
+        <li><a href="#">problemset</a></li>
+        <li><a href="#">groups</a></li>
+        <li><a href="#">rating</a></li>
+        <li><a href="#">edu</a></li>
+        <li><a href="#">api</a></li>
+    </nav>
+
+    <div id="home-posts">
+        <h3><a href="#">vulkan round 1 (div 1, div 2)</a></h3>
+        <span>by <a href="#">@zakhaev26</a> and <a href="#">@majorbruteforce</a> - 3hrs ago</span>
+
+        <p>it's been a long day without you, vulkaners!</p>
+
+        <p>we are glad to invite you to take part in vulkan round 1 (div. 2) and vulkan round 1 (div. 1), which
+            will start on friday, august 30, 2024 at 20:05 utc+5.5. you will be given 6 problems and 2 hours and 30
+            minutes to solve them in both divisions.</p>
+
+        <p>the problems are authored by <a href="#">novastar</a>, <a href="#">quantumace</a>, and <a
+                href="#">zenmaster</a>, and mostly
+            prepared by <a href="#">novastar</a>. one of the problems is also prepared by <a href="#">stellarguru</a>.
+        </p>
+
+        <p>we would like to thank:</p>
+
+        <p><a href="#">starcoder</a> for his excellent coordination and translations.
+            <a href="#">codewiz</a>, <a href="#">algorithmace</a>, <a href="#">techguru</a>, <a href="#">bytemaster</a>,
+            <a href="#">datasage</a>, <a href="#">devhero</a>, <a href="#">logiclancer</a>, <a
+                href="#">problemsolver</a>, <a href="#">quickthinker</a>, and
+            <a href="#">debugninja</a> for their invaluable testing and feedback.
+            special thanks to <a href="#">techmaster</a> for the vulkan and polygon platforms.
+        </p>
+
+        <p>hope you will enjoy the problems!</p>
+
+        <p>score distribution:</p>
+
+        <p>div. 2: 500−750−1000−1500−2250−2750</p>
+        <p>div. 1: 750−1250−1500−2000−2500−3000</p>
+
+        <br>
+        <br>
+        <br>
+        <h3><a href="#">new go toolchains added to vulkan testing servers</a></h3>
+        <span>by <a href="#">@techmaster</a> - 1hr ago</span>
+
+        <p>we are excited to announce the addition of Go toolchains to our vulkan testing servers!</p>
+
+        <p>In response to the growing demand for support for various programming environments, we've integrated the
+            latest Go toolchains into our server infrastructure. This update includes Go 1.21.2, ensuring compatibility
+            with modern Go modules and enhancing performance during testing phases.</p>
+
+        <p>New features include:</p>
+        <ul>
+            <li>Enhanced performance benchmarks for Go applications</li>
+            <li>Improved support for concurrent programming and Go routines</li>
+            <li>Extended libraries and modules for advanced testing scenarios</li>
+        </ul>
+
+        <p>We believe this addition will provide a significant boost to the efficiency and accuracy of your submissions.
+            Thank you to our team of developers and contributors for their ongoing support and feedback.</p>
+
+        <p>happy coding!</p>
+    </div>
+
+    <footer>github.com/p-society | a free software licensed under <code>GNU Affero General Public License v3.0</code>
+    </footer>
+    </code>
 </body>
 
 </html>
